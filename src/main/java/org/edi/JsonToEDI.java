@@ -3,7 +3,7 @@ package org.edi;
 import com.fasterxml.jackson.databind.JsonNode;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.jetbrains.annotations.Nullable;
+
 
 import java.io.IOException;
 
@@ -67,10 +67,10 @@ public class JsonToEDI {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
+    }it 
 
 
-    private static @Nullable void jsonToEdiModel(String json) {
+    private static void jsonToEdiModel(String json) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode parentNode = objectMapper.readTree(json);
