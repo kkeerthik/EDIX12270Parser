@@ -1,8 +1,8 @@
-package com.edi;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
+package org.edi;
 
 import java.io.IOException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonParserExample {
     public static void main(String[] args) {
