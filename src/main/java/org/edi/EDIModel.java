@@ -1,10 +1,13 @@
-package org.edi;
+package edi;
 
 public class EDIModel {
     private ISASegment isaSegment;
     private GSSegment gsSegment;
     private STSegment stSegment;
     private BHTSegment bhtSegment;
+    private LOOP2000ASegment loop2000ASegment;
+
+
 
     // Constructor
     public EDIModel() {
@@ -12,6 +15,7 @@ public class EDIModel {
         this.gsSegment = gsSegment;
         this.stSegment = stSegment;
         this.bhtSegment = bhtSegment;
+
     }
 
     // Getters and Setters
@@ -46,7 +50,6 @@ public class EDIModel {
     public void setBhtSegment(BHTSegment bhtSegment) {
         this.bhtSegment = bhtSegment;
     }
-
 
     // Additional methods to process EDI data can be added here
 }

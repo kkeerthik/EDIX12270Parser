@@ -1,4 +1,4 @@
-package org.edi;
+package edi;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

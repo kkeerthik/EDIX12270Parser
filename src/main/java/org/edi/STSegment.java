@@ -1,4 +1,4 @@
-package org.edi;
+package edi;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -7,8 +7,10 @@ public class STSegment
 {
     @JsonProperty("ST01")
     private String st01;
+
     @JsonProperty("ST02")
     private String st02 ;
+
     @JsonProperty("ST03")
     private String st03;
 

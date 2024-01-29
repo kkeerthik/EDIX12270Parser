@@ -1,77 +1,60 @@
-package org.edi;
+package edi;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ISASegment {
 
     @JsonProperty("ISA01")
-
     private String isa01;
 
     @JsonProperty("ISA02")
-
     private String isa02;
 
     @JsonProperty("ISA03")
-
     private String isa03;
 
     @JsonProperty("ISA04")
-
     private String isa04;
 
     @JsonProperty("ISA05")
-
     private String isa05;
 
     @JsonProperty("ISA06")
-
     private String isa06;
 
     @JsonProperty("ISA07")
-
     private String isa07;
 
     @JsonProperty("ISA08")
-
     private String isa08;
 
     @JsonProperty("ISA09")
-
     private String isa09;
 
     @JsonProperty("ISA10")
-
     private String isa10;
 
     @JsonProperty("ISA11")
-
     private String isa11;
 
     @JsonProperty("ISA12")
-
     private String isa12;
 
     @JsonProperty("ISA13")
-
     private String isa13;
 
     @JsonProperty("ISA14")
-
     private String isa14;
 
     @JsonProperty("ISA15")
-
     private String isa15;
 
     @JsonProperty("ISA16")
-
     private String isa16;
 
-    public String getIsa01() {
-
+    public String getIsa01()
+    {
         return isa01;
-
     }
 
     // Constructor

@@ -1,4 +1,4 @@
-package org.edi;
+package edi;
 
 import java.io.IOException;
 import com.fasterxml.jackson.databind.JsonNode;
